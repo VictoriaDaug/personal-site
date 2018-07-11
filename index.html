@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="Victoria Daug Portfolio" content="Portfolio of a Fullstack Web Developer">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="google-site-verification" content="9en5roej7kxvPcqpDxdXQHv7F2RHFYDbHlrJRZZrsio" />
+  <title>Victoria Daug | Portfolio | Fullstack Dev</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.2.0/normalize.min.css">
+  <link rel="stylesheet" href="index.css">
+  <link href="./lightbox/lightbox.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Quattrocento|Playfair+Display" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="shortcut icon" href="http://www.eddiepo.co/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="http://www.eddiepo.co/favicon.ico" type="image/x-icon">
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+</head>
+
+<script>
+  window.fadeIn = function(obj) {
+      $(obj).hide().fadeIn(2000);
+  }
+</script>
+
+<body>
+
+  <header id="home" role="banner">
+
+  <!-- Header: MOBILE -->
+  <div class="header-mobile">
+    <div class="header-container">
+      <h1 class="header-logo">VICTORIA<span class="less-space"> </span>DAUG</h1>
+
+      <!-- Mobile Menu: Hamburger -->
+      <button class="hamburger" aria-label="Open Menu Box">&#9776;</button>
+      <!-- Mobile Menu: X -->
+      <button class="cross hidden" aria-label="Close Menu Box">&times;</button>
+      <!-- <button class="logo">&#2715;</button> -->
+
+    </div>
+
+    <!-- Mobile Menu: List -->
+    <nav role="navigation" class="nav-mobile expandable-nav">
+      <img class="kira-nav-1" src="./img/kira-nav-1.png">
+      <img class="kira-nav-2" src="./img/kira-nav-2.png">
+      <img class="kira-nav-3" src="./img/kira-nav-3.png">
+      <ul class="nav-list-container nav-list-mobile">
+        <li><a href="#home" class="black-hover mobile-select">home</a></li>
+        <div class="divider-short"></div>
+        <li><a href="#about" class="black-hover mobile-select">about</a></li>
+        <div class="divider-short"></div>
+        <li><a href="#webdev" class="black-hover mobile-select">webdev</a></li>
+        <div class="divider-short"></div>
+        <li><a href="#photos" class="black-hover mobile-select">blog</a></li>
+        <div class="divider-short"></div>
+        <li><a href="#contact" class="black-hover mobile-select">contact</a></li>
+      </ul>
+    </nav>
+
+    <!-- Mobile Menue: Captions -->
+    <div class="header-title-mobile">
+      <img src="./img/title-img-mobile.jpg" class="header-slideshow header-slideshow-mobile">
+      <div class="header-captions-mobile">
+        <div>
+          <div class="header-caption">full stack developer<span class="blinking-cursor">|</span></div>
+          <div class="strike"><i class="fa">&#xf103;</i></div>
+        </div>
+        <div class="divider-medium"></div>
+        <!-- <img class="down-arrow" src="./icons/downarrow-icon.png">         -->
+      </div>
+    </div>
+  </div>
+
+  <!-- Header: DESKTOP -->
+  <div class="header-desktop">
+    <div class="header-title-desktop">
+      <h1 class="header-logo">Victoria<span class="less-space"> </span>Daug</h1>
+      <hr class="desktop-header-line">
+      <div class="header-caption">full stack developer<span class="blinking-cursor">|</span></div>
+      <img id="preload" onload="fadeIn(this)" src="./img/title-img-desktop.jpg" class="header-slideshow header-slideshow-desktop" style="display:none;">
+    </div>
+    <nav role="navigation" class="nav-desktop">
+      <ul class="nav-list-container">
+        <li><a href="#home" class="black-hover nav-link-dt">home</a></li>
+        <li><a href="#about" class="black-hover nav-link-dt">about</a></li>
+        <li><a href="#webdev" class="black-hover nav-link-dt">webdev</a></li>
+        <li><a href="#photos" class="black-hover nav-link-dt">photos</a></li>
+        <li><a href="#contact" class="black-hover nav-link-dt">contact</a></li>
+      </ul>
+    </nav>
+  </div>
+
+</header>
+
+  <!-- Main -->
+  <main role="main">
+    <div class="main-container">
+
+      <div id="about" class="anchor about"></div>
+      <!-- Main: About -->
+      <div class="main-about-container">
+        <section class="section-about">about</section>
+
+        <div class="about-self-portrait-mobile">
+          <img src="./img/self-portrait.jpg" class="about-self-portrait"></img>
+          <h3 class="about-name-mobile">Victoria Daug</h3>
+          <p class="divider-short"></p>
+        </div>
+
+        <div class="row-2">
+          <p>Hi, I'm Victoria Daug, occasional diver, wannabe-bouldering master, coffee addict and code craftswoman.</p>
+          <p>I’ve always sought out opportunities and challenges that are meaningful to me. As a web developer, I enjoy bridging the gap between engineering and design, my unequivocal love for making things, and my mission-driven work ethic to literally change the world. My goal is to always build applications that are scalable and efficient under the hood while providing engaging, pixel-perfect user experiences.</p>
+        </div>
+
+        <div class="row-3 divs">
+          <div class="cls1">
+            <img src="./img/self-portrait.jpg" class="about-self-portrait about-self-portrait-desktop"></img>
+            <h3 class="about-name"><a id="next" class="black-hover name-hover read-more"><span class="more-mobile">Read more </span><span class="more-desktop">Victoria Daug</span><i class="fa fa-angle-double-right"></i></a></h3>
+            <p class="divider-short"></p>
+          </div>
+
+          <div class="cls2">
+            <p>My experience includes working full-stack with technologies such as React/Redux, React Native, Node.js, Express, AWS, PostgreSQL, MongoDB, REST API, CSS/Sass, Glamorous, Flexbox, Passport Authentications and CICD.</p>
+            <p>I'm constantly reading and learning web technologies and approaches; but the best way to learn is by doing and repeating and then teaching.<span> </span> <a id="prev"><i class="fa fa-angle-double-left"></i></a></p>
+            <img class="webdev-placeholder kira-kira" src="./img/kirakira.jpg">
+            <p class="divider-short"></p>
+          </div>
+        </div>
+
+      </div>
+
+      <div id="webdev" class="anchor webdev"></div>
+
+      <!-- Main: Webdev -->
+      <div class="main-webdev-container">
+        <section class="section-webdev">webdev</section>
+
+        <!-- <a class="anchor-project" id="project-1"></a> -->
+
+        <!-- PROJECT 1 -->
+        <div class="project">
+
+          <h4 class='project-name'>tripWe App</h4>
+          <div class="webdev-container">
+            <div class="webdev-images">
+              <img class="webdev-placeholder capstone-project" src="https://res.cloudinary.com/victoriadaugpage/image/upload/v1531249649/tripwe_landing.png">
+            </div>
+            <div class="webdev-description">
+               <p>The TripWe app helps organize groups of travellers by storing important travel information on one platform for all group members to see.</p>
+               <p>
+               Organising group trips can be hectic, starting with agreeing flight arrival times while flying from different places, activities informations
+               geting lost in a chat, accommodation information locked in someone's email and not to mention who ever follows the budget?
+               With tripWe users can easily organise trips without toggling between multiple apps.
+               </p>
+            </div>
+          </div>
+
+          <div class="learn-more project-5">
+            <div class="cls1">
+              <p> <a id="next-project-5" class="learn-more black-hover">Learn more <i class="fa fa-angle-double-right"></i></a> </p>
+            </div>
+            <div class="cls2">
+              <aside class="webdev-container">
+                <aside class="devicon-wrapper">
+                  <ul class="devicon">
+                    <li>
+                      <i class="devicon-react-original colored"></i>
+                      <aside class="icon-caption">React Redux</aside>
+                    </li>
+                    <li>
+                      <i class="devicon-sass-original colored"></i>
+                      <aside class="icon-caption">Sass</aside>
+                    </li>
+                    <li>
+                      <i class="devicon-amazonwebservices-plain-wordmark colored"></i>
+                      <aside class="icon-caption">AWS RDS</aside>
+                    </li>
+                    <li>
+                      <i class="devicon-javascript-plain colored"></i>
+                      <aside class="icon-caption">JavaScript</aside>
+                    </li>
+                    <li>
+                      <i class="devicon-nodejs-plain colored"></i>
+                      <aside class="icon-caption">NodeJS</aside>
+                    </li>
+                    <li>
+                      <i class="devicon-express-original colored"></i>
+                      <aside class="icon-caption">Express</aside>
+                    </li>
+                    <li>
+                      <i class="devicon-postgresql-plain-wordmark colored"></i>
+                      <aside class="icon-caption">PostgreSQL</aside>
+                    </li>
+                    <li>
+                      <i class="devicon-trello-plain colored"></i>
+                      <aside class="icon-caption">Jira</aside>
+                    </li>
+                    <li>
+                      <i class="devicon-heroku-plain colored"></i>
+                      <aside class="icon-caption">Heroku</aside>
+                    </li>
+                    <li>
+                      <i class="devicon-mocha-plain colored"></i>
+                      <aside class="icon-caption">Mocha</aside>
+                    </li>
+
+                    <li class="filling-empty-space-childs disappearing-child-866"></li>
+                    <li class="filling-empty-space-childs disappearing-child-866"></li>
+                    <li class="filling-empty-space-childs disappearing-child-866"></li>
+                    <li class="filling-empty-space-childs disappearing-child-866"></li>
+                    <li class="filling-empty-space-childs disappearing-child-866"></li>
+                    <li class="filling-empty-space-childs disappearing-child-866"></li>
+                    <li class="filling-empty-space-childs disappearing-child-866"></li>
+
+                  </ul>
+                </aside>
+                <aside class="webdev-images">
+                  <img class="webdev-placeholder webdev-combined-picture" src="https://res.cloudinary.com/victoriadaugpage/image/upload/v1531252816/tripwe_dashboard_iphone_4.png">
+                </aside>
+                <aside class="webdev-description">
+                    <p class="github-demo"> <a href="https://github.com/VictoriaDaug/tripwe-client" target="_blank">GitHub</a><span class="photos-menu-divider">&nbsp;&nbsp;|&nbsp; </span><a href="https://tripwe.herokuapp.com/" target="_blank">Live Demo</a></p>
+
+                    <p>Assumed a role of a full-stack developer, built UI/UX with React and Redux, architected database design to affectively modal single-many/many-many data relationships in RDBMS (PostgreSQL).
+                      The app integrates with google map api to provide visual display of geo location information,
+                      utilises SendGrid API to send automated emails and hosted in AWS.</p>
+
+                    <a id="prev-project-5" href="#project-5"><i class="fa fa-angle-double-up"></i></a></p>
+                    <p class="divider-short divider-project"></p>
+                </aside>
+              </aside>
+            </div>
+          </div>
+        </div>
+
+        <div class="section-divider"></div>
+
+        <!-- PROJECT 2 -->
+        <div class="project">
+
+        <h4 class='project-name'>Elements Learning App</h4>
+        <div class="webdev-container">
+          <div class="webdev-images">
+              <img class="webdev-placeholder" src="http://res.cloudinary.com/victoriadaugpage/image/upload/v1531243817/elements_landing.png">
+          </div>
+          <div class="webdev-description">
+              <p><em>Elements</em> serves as memorization platform for a Periodic Table. The app displays an element showing the symbol and asks users to input the name of the element. User can see instant feedback on the screen and track progress. Referencing the concept of the <em>Forgetting Curve</em>, the app's algorithm dynamically repeats any questions answered wrongfully to help users strengthen memory.</p>
+          </div>
+        </div>
+
+        <div class="learn-more project-4">
+          <div class="cls1">
+            <p> <a id="next-project-4" class="learn-more black-hover">Learn more <i class="fa fa-angle-double-right"></i></a> </p>
+          </div>
+          <div class="cls2">
+            <aside class="webdev-container">
+              <aside class="devicon-wrapper">
+                <ul class="devicon">
+                  <li>
+                    <i class="devicon-react-original colored"></i>
+                    <aside class="icon-caption">React</aside>
+                  </li>
+                  <li>
+                    <i class="devicon-html5-plain colored"></i>
+                    <aside class="icon-caption">HTML</aside>
+                  </li>
+                  <li>
+                    <i class="devicon-css3-plain colored"></i>
+                    <aside class="icon-caption">CSS</aside>
+                  </li>
+                  <li>
+                    <i class="devicon-javascript-plain colored"></i>
+                    <aside class="icon-caption">JavaScript</aside>
+                  </li>
+                  <li>
+                    <i class="devicon-nodejs-plain colored"></i>
+                    <aside class="icon-caption">NodeJS</aside>
+                  </li>
+                  <li>
+                    <i class="devicon-express-original colored"></i>
+                    <aside class="icon-caption">Express</aside>
+                  </li>
+                  <li>
+                    <i class="devicon-mongodb-plain colored"></i>
+                    <aside class="icon-caption">Mongo</aside>
+                  </li>
+                  <li>
+                    <i class="devicon-trello-plain colored"></i>
+                    <aside class="icon-caption">Trello</aside>
+                  </li>
+                  <li>
+                    <i class="devicon-travis-plain-wordmark colored"></i>
+                    <aside class="icon-caption">Travis</aside>
+                  </li>
+                  <li>
+                    <i class="devicon-heroku-plain colored"></i>
+                    <aside class="icon-caption">Heroku</aside>
+                  </li>
+
+                  <li class="filling-empty-space-childs disappearing-child-866"></li>
+                  <li class="filling-empty-space-childs disappearing-child-866"></li>
+                  <li class="filling-empty-space-childs disappearing-child-866"></li>
+                  <li class="filling-empty-space-childs disappearing-child-866"></li>
+                  <li class="filling-empty-space-childs disappearing-child-866"></li>
+                  <li class="filling-empty-space-childs disappearing-child-866"></li>
+                  <li class="filling-empty-space-childs disappearing-child-866"></li>
+
+                </ul>
+              </aside>
+              <aside class="webdev-images">
+                <img class="webdev-placeholder webdev-combined-picture" src="https://res.cloudinary.com/victoriadaugpage/image/upload/v1531244019/elements_macbookgrey_front.png">
+              </aside>
+              <aside class="webdev-description">
+                  <p class="github-demo"> <a href="https://github.com/VictoriaDaug/Victoria-Trent-Spaced-Repetition-App-Client" target="_blank">GitHub</a><span class="photos-menu-divider">&nbsp;&nbsp;|&nbsp; </span><a href="https://confident-darwin-8cf93d.netlify.com/" target="_blank">Live Demo</a></p>
+
+                  <p>Using a linked-list data structure and immersing it with MongoDB, the algorithm updates the memory value ( "M" ) to each corresponding question as they are answered.How frequent a user sees the question repeated depends on this memory value: If answered correctly, "M" value doubles; otherwise, "M" value is reset to 1; finally, move this question "M" spaces back. Initially the user will have the first 10 elements of the periodic table, but if they get 10 questions in a row correct a new element will be added to the list. Also, the user can go to the progress tab at anytime to add additional elements to the list.</p>
+
+                  <a id="prev-project-4" href="#project-4"><i class="fa fa-angle-double-up"></i></a></p>
+                  <p class="divider-short divider-project"></p>
+              </aside>
+            </aside>
+          </div>
+        </div>
+      </div>
+
+      <div class="section-divider"></div>
+
+        <!-- PROJECT 3 -->
+        <div class="project">
+          <h4 class='project-name'>Daydream Weather App</h4>
+          <div class="webdev-container">
+            <div class="webdev-images">
+                <img class="webdev-placeholder" src="https://res.cloudinary.com/victoriadaugpage/image/upload/v1531311308/BeFunky-collage.jpg">
+            </div>
+            <div class="webdev-description">
+                <p>The Daydream Weather is a React Native project for iOS built during short hacketon.
+                App displays weather forecast for the week or every 3hours and UV index forecast for today.</p>
+            </div>
+          </div>
+
+          <div class="learn-more project-1">
+            <div class="cls1">
+                <p> <a id="next-project-1" class="learn-more black-hover">Learn more <i class="fa fa-angle-double-right"></i></a> </p>
+                <p class="divider-short"></p>
+              </div>
+            <div class="cls2">
+              <aside class="webdev-container">
+                <aside class="devicon-wrapper">
+                    <ul class="devicon">
+                      <li>
+                        <i class="devicon-react-original colored"></i>
+                        <aside class="icon-caption">React Native</aside>
+                      </li>
+                      <li>
+                        <i class="devicon-css3-plain colored"></i>
+                        <aside class="icon-caption">CSS</aside>
+                      </li>
+                      <li>
+                        <i class="devicon-javascript-plain colored"></i>
+                        <aside class="icon-caption">JavaScript</aside>
+                      </li>
+                      <li>
+                        <i class="devicon-nodejs-plain colored"></i>
+                        <aside class="icon-caption">NodeJS</aside>
+                      </li>
+
+                    </ul>
+                  </aside>
+                <aside class="webdev-description">
+                  <p class="github-demo"> <a href="https://github.com/VictoriaDaug/victoria-RN-weather" target="_blank">GitHub</a></p>
+
+                    <p>I was given 5days to learn a new framework on my own and build something to show for it. I chose React Native, and this was my first, fun attempt at it. Unsuspectingly, I was learning not just React Native but all of its side cruxes: Android Studio, Xcode &amp; Expo. I used Accuweather API to get weather and UV index data based on selected location</p>
+                    <a id="prev-project-1" href="#project-1"><i class="fa fa-angle-double-up"></i></a></p>
+                    <p class="divider-short divider-project"></p>
+                </aside>
+              </aside>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Main: Photos -->
+      <div id="photos" class="anchor photos"></div>
+      <div class="main-photos-container">
+        <section class="section-photos">blog</section>
+        <p class="photos-description">Coming soon</p>
+        <img class="photos-placeholder kira-kira-2" src="./img/kirakira2.jpg">
+
+      </div>
+
+      <div id="contact" class="anchor contact"></div>
+      <!-- Main: Contact -->
+      <div class="main-contact-container">
+        <section class="section-contact">contact</section>
+        <div class="contact-detail-container">
+          <div class="contact-left">
+            <div class="contact-left-column">
+              <h1 class="contact-logo">VICTORIA<span class="less-space"> </span>DAUG</h1>
+              <p class="email-caption">EMAIL ADDRESS</p>
+              <p class="email-address"><a href="mailto:victoria.daug@gmail.com" target="_self" class='contact-link'>「 victoria.daug@gmail.com 」
+                <!-- <i class="fa fa-angle-double-right"></i> -->
+              </a></p>
+              <p class="location">BASED IN (NOT LIMITED TO) LONDON</p>
+              <div class="contact-left-column-bottom-row">
+                <p class="lets-talk">Let's talk about work, freelance, yoga, music, and whatever inspires you.</p>
+                <ul class="work-repo-ul">
+                  <li><a href="https://www.linkedin.com/in/victoria-daug-494999a1/" target="_self" class='contact-link work-history'>WORK HISTORY</a></li>
+                  <li><a href="https://github.com/VictoriaDaug" target="_self" class='contact-link other-repos'>OTHER REPOS</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="contact-right">
+            <img class="self-portrait-2" src="./img/contact-bio.jpg" alt="self-portrait-2"/>
+          </div>
+        </div>
+        <div class="contacts-placeholder hidden"></div>
+      </div>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer role="contentinfo" class="footer">
+    <div class="divider-medium"></div>
+  </footer>
+  <script src="index.js"></script>
+  <script src="./lightbox/lightbox.js"></script>
+</body>
+
+</html>
